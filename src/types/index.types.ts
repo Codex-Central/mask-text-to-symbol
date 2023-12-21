@@ -1,9 +1,10 @@
-/**
- * ADD HERE YOUR OWN TYPES
- */
-export type Config = {
-  attribute1: string;
-  attribute2: number;
-  attribute3?: object[];
-  attribute4?: number;
-}; 
+export type TMaskTextToSymbol = {
+  /**
+   * The text to be converted to symbols
+   */
+  text: string;
+  /**
+   * The symbol to be used to mask the text
+   */
+  symbol?: string;
+};
