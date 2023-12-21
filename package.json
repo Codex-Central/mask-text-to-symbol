@@ -1,6 +1,6 @@
 {
   "name": "@codexcentral/mask-text-to-symbol",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Takes a string as input and returns a new string with all characters replaced by an specified symbol.",
   "license": "Apache-2.0",
   "main": "./dist/cjs/index.js",
@@ -11,7 +11,16 @@
     "README.md",
     "LICENSE"
   ],
-  "keywords": ["typescript"],
+  "keywords": [
+    "typescript",
+    "string",
+    "replace",
+    "text",
+    "mask",
+    "password",
+    "javascript",
+    "node"
+  ],
   "author": "Roberto Silva Zuñiga <c.roberto.u@gmail.com>",
   "repository": {
     "type": "git",
